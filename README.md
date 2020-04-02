@@ -1,2 +1,2 @@
-# yuhyeminn
-TIL
+# TIL
+Today I Learned
