@@ -31,7 +31,7 @@
 
 * Full and Complete Binary Tree
 
-  ![image-20200412173745129](C:\Users\hyemin\AppData\Roaming\Typora\typora-user-images\image-20200412173745129.png)
+  ![image-20200412173745129](https://user-images.githubusercontent.com/58774719/81821295-aa09d880-956c-11ea-9c53-fe134527c599.png)
 
   * 높이가 h인 full binary tree는 2^h-1개의 노드를 가진다.
 
@@ -43,7 +43,7 @@
 
   - 연결구조(Linked Structure)로 표현
 
-    ![image-20200412174450899](C:\Users\hyemin\AppData\Roaming\Typora\typora-user-images\image-20200412174450899.png)
+    ![image-20200412174450899](https://user-images.githubusercontent.com/58774719/81821342-b42bd700-956c-11ea-8b58-2a67fbdc08b7.png)
 
     각 노드에 하나의 데이터 필드와 왼쪽자식, 오른쪽자식, 그리고 부모노드의 주소를 저장함.
 

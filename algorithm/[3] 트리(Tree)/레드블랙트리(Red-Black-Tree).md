@@ -47,7 +47,7 @@
 
 ​	이진탐색 트리의 특성을 유지함
 
-![left-right-rotation](C:\Users\hyemin\Desktop\left-right-rotation.PNG)
+![image-20200415215405813](https://user-images.githubusercontent.com/58774719/81821528-e63d3900-956c-11ea-9d49-a67810c219de.png)
 
 
 
@@ -124,7 +124,7 @@ RB-INSERT(T,z)
 
   CASE 4, 5, 6 : p[z]가 p[p[z]]의 오른쪽 자식인 경우
 
-![RB-INSERT-FIXUP](C:\Users\hyemin\Desktop\RB-INSERT-FIXUP.PNG)
+![RB-INSERT-FIXUP](https://user-images.githubusercontent.com/58774719/81821645-0b31ac00-956d-11ea-8378-b626ead4d631.PNG)
 
 
 
@@ -211,12 +211,8 @@ RB-DELETE(T,z)
     - p[x]에 대해서 left-rotation 적용
     - x의 extra-black 을 제거하고 종료
 
-![RB-DELETE-FIXUP](C:\Users\hyemin\Desktop\RB-DELETE-FIXUP.PNG)
+![RB-DELETE-FIXUP](https://user-images.githubusercontent.com/58774719/81821575-f7864580-956c-11ea-97a1-07e37dc531f5.PNG)
 
 
 
 - 시간복잡도 $O(log_2n)$
-
-
-
-..너무 어렵다..무슨말인지.. 나중에 꼭 공부하기..~^^..

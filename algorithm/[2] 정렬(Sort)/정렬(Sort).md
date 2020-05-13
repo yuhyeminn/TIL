@@ -181,7 +181,7 @@ int partition(int arr[], p, r){
 
 #### 힙 정렬(Heap Sort)
 
-- 최악의 경우에도 시간복잡도가 nlog_2 n
+- 최악의 경우에도 시간복잡도가 $O(nlog_2 n)$
 - 추가 배열 불필요함(Sorts in place)
 
 - 이진 힙(binary heap) 자료구조 사용
@@ -310,14 +310,14 @@ HEAPSORT(A)
 
 > 정렬의 하한(lower bound)
 
-* 선택, 삽입, 버블, 퀵 정렬은 최악의 경우 시간복잡도 O(n^2)
-* 합병, 힙 정렬 최악의 경우 시간복잡도 O(nlog_2n)
+* 선택, 삽입, 버블, 퀵 정렬은 최악의 경우 시간복잡도 $O(n^2)$
+* 합병, 힙 정렬 최악의 경우 시간복잡도 $O(nlog_2n)$
 
 
 
 #### Comparison Sort
 
-- 시간복잡도가 O(nlog_2n)보다 나을 수 없음
+- 시간복잡도가 $O(nlog_2n)$보다 나을 수 없음
 - 데이터들간의 상대적 크기관계만을 이용한 정렬 알고리즘
 - 데이터들간의 크기 관계가 정의되어 있으면 어떤 데이터에든 적용 가능(문자열, 알파벳, 사용자 정의 객체 등)
 - 버블, 삽입, 합병, 퀵, 힙 정렬 등
@@ -333,8 +333,8 @@ HEAPSORT(A)
 
 #### 정렬문제의 하한(Lower bound)
 
-* 입력된 데이터를 한번씩 다 보기위해서 최소 O(n)의 시간복잡도 필요
-* 합병정렬과 힙정렬 알고리즘의 시간복잡도는 O(nlog_2 n)
+* 입력된 데이터를 한번씩 다 보기위해서 최소 $O(n)$의 시간복잡도 필요
+* 합병정렬과 힙정렬 알고리즘의 시간복잡도는 $O(nlog_2 n)$
 
 * Decision Tree
 
@@ -378,7 +378,7 @@ COUNTING-SORT(A,B,k)
 11			C[A[j]] ← C[A[j]]-1
 ~~~
 
-* 시간 복잡도 : O(n+k) 또는 O(n) if k=O(n).
+* 시간 복잡도 : $O(n+k)$ 또는 $O(n)$ if k=$O(n)$
 
 * k가 클 경우 비실용적.
 
@@ -395,7 +395,7 @@ COUNTING-SORT(A,B,k)
 - 가장 낮은 자리수부터 정렬함
 - 각 자릿수를 Counting sort 이용하여 정렬
 
-![image-20200407205931442](C:\Users\hyemin\AppData\Roaming\Typora\typora-user-images\image-20200407205931442.png)
+![image-20200407205931442](https://user-images.githubusercontent.com/58774719/81820978-47184180-956c-11ea-8454-b728ef31d4c7.png)
 
  ~~~pseudocode
 RADIX-SORT(A,d)
@@ -403,10 +403,10 @@ RADIX-SORT(A,d)
 2		do use a stable sort to sort array A on digit i
  ~~~
 
-* 시간 복잡도 : O(d(n+k))
+* 시간 복잡도 : $O(d(n+k))$
 
 
 
 #### 정렬 알고리즘의 시간복잡도
 
-![image-20200407212121701](C:\Users\hyemin\AppData\Roaming\Typora\typora-user-images\image-20200407212121701.png)
+![image-20200407212121701](https://user-images.githubusercontent.com/58774719/81820837-0f10fe80-956c-11ea-9413-1c931c118ba8.png)
