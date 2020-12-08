@@ -1,10 +1,10 @@
-### Node.js Express Module
+# Node.js Express Module
 
 > 윤재성의 Node.js 서버 프로그래밍 과정 강의 노트
 
+ 
 
-
-#### 외부 모듈 사용하기
+### 외부 모듈 사용하기
 
 node.js에서 제공하는 기본 모듈만으로는 개발하기에 충분하지 않음.
 
@@ -40,13 +40,16 @@ node.js는 오픈 소스 플랫폼으로 소스가 공개되어 있어 전 세�
        }
        ~~~
 
-    
+
+ 
 
 ---
 
+ 
 
+### express 모듈
 
-#### express 모듈
+:memo: [express 모듈 실습 파일](https://github.com/yuhyeminn/TIL/tree/master/nodejs/express) 
 
 웹 애플리케이션을 개발할 때 가장 많이 사용되고 있는 외부 모듈
 
@@ -54,9 +57,9 @@ http 모듈에 비해 많은 기능을 갖추고 있어 보다 손쉽게 웹 애
 
 express 모듈은 jade, ejs 등과 같은 동적 웹 페이지 파일을 지원하고있어 보다 쉽게 애플리케이션 개발이 가능함
 
+ 
 
-
-#### 라우팅
+### 라우팅
 
 사용자 요청에 따라 응답 결과를 달리 전달하는 것을 라우팅이라고 함
 
@@ -69,9 +72,9 @@ app.get("/test", function(req, res{}));
 
 -> js파일을 만들어 작성하면 파일을 분리할 수 있기 때문에 관리하기가 용이해짐
 
+ 
 
-
-#### html 렌더링
+### html 렌더링
 
 html 코드를 send할 때, html 코드의 양이 늘어날 경우 개발에 어려움을 줌. 
 
@@ -100,9 +103,10 @@ html 코드를 send할 때, html 코드의 양이 늘어날 경우 개발에 어
   app.use(express.static("public"));
   ~~~
 
-  
 
-#### 동적 웹 페이지
+ 
+
+### 동적 웹 페이지
 
 express 모듈에서 렌더링 모듈을 사용하면 동적 웹페이지를 만들 수 있음.
 
@@ -110,17 +114,17 @@ express 모듈에서 렌더링 모듈을 사용하면 동적 웹페이지를 만
 
 ejs모듈 사용은 jsp와 흡사함
 
+ 
 
-
-#### 요청 방식
+### 요청 방식
 
 get방식은 서버로 전달할 데이터가 주소창에 모두 나타나며 post방식은 숨겨저서 전달됨
 
 form 태그에서 method를 post로 줄 때를 제외한 나머지 모든 경우는 get방식에 해당함
 
+ 
 
-
-#### 파라미터
+### 파라미터
 
 클라이언트가 서버에 요청할 때 전달하는 데이터
 
@@ -130,9 +134,9 @@ get 방식의 경우 query라는 객체 안에 들어있음
 
 post 방식의 경우 bodyParser 모듈을 이용해야 파라미터를 추출 할 수 있음
 
+ 
 
-
-#### 쿠키
+### 쿠키
 
 클라이언트 측에 저장되는 데이터
 
@@ -142,9 +146,9 @@ post 방식의 경우 bodyParser 모듈을 이용해야 파라미터를 추출 �
 
 express에서는 cookie-parser 모듈을 이용하여 쿠키 관리
 
+ 
 
-
-#### 세션
+### 세션
 
 서버 메모리에 데이터를 저장하는 방식으로 브라우저 하나당 하나의 공간이 할당됨
 
@@ -152,13 +156,15 @@ express에서는 cookie-parser 모듈을 이용하여 쿠키 관리
 
 express에서 세션을 관리할 때 express-session 모듈 사용
 
-
+ 
 
 ---
 
+ 
 
+### 데이터베이스 연동하기
 
-#### 데이터베이스 연동하기
+   :memo: [mysql.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/guestbook/mysql.js) 
 
 1. 사용할 DBMS 모듈 설치하기 ( mysql 사용 )
 
@@ -207,13 +213,16 @@ express에서 세션을 관리할 때 express-session 모듈 사용
    conn.end();
    ~~~
 
-   
+
+ 
 
 ---
 
+ 
 
-
-#### 방명록 프로젝트
+### 방명록 프로젝트
 
 mysql 연동한 간단한 방명록 만들기 실습
+
+:memo: [guestbook 소스파일](https://github.com/yuhyeminn/TIL/tree/master/nodejs/guestbook) 
 

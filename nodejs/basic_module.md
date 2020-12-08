@@ -1,10 +1,10 @@
-### Node.js Basic Module
+# Node.js Basic Module
 
 > 윤재성의 Node.js 서버 프로그래밍 과정 강의 노트
 
+ 
 
-
-#### 모듈
+### 모듈
 
 - js파일이 하나의 모듈이 되며 이는 하나의 객체 단위
 - 자주 사용하는 함수의 경우 별도의 js파일에 만들면 됨
@@ -32,9 +32,9 @@ test.func();
 
 ------
 
+ 
 
-
-#### Assert 모듈
+### Assert 모듈
 
 개발자가 만든 코드가 동작하기 전에 데이터나 수식에 대한 검사를 할 수 있는 모듈
 
@@ -49,11 +49,15 @@ var assert = require("assert");
 
 
 
+:memo: [assert.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/assert.js) 
+
+ 
+
 ------
 
+ 
 
-
-#### Buffer 모듈
+### Buffer 모듈
 
 기억공간을 동적으로 만들 때 사용하는 모듈
 
@@ -62,13 +66,17 @@ JavaScript에는 자료형이 따로 존재하지 않기 때문에, 원하는 �
 * 모듈 생성 없이 사용
 * 데이터를 1바이트씩 분리하여 저장함
 
+ 
 
+:memo: [buffer.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/buffer.js) 
+
+ 
 
 ------
 
+ 
 
-
-#### Cluster 모듈
+### Cluster 모듈
 
 병렬처리를 위해 사용되는 모듈이며, 하나의 작업단위는 worker
 
@@ -84,13 +92,17 @@ var cluster = require("cluster");
 cluster.schedualingPolicy = cluster.SCHED_RR;
 ~~~
 
+ 
 
+:memo: [cluster.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/cluster.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### crypto 모듈
+### crypto 모듈
 
 데이터 암호화 기능을 제공하는 모듈
 
@@ -101,13 +113,17 @@ cluster.schedualingPolicy = cluster.SCHED_RR;
 var crypto = require("crypto");
 ~~~
 
+ 
 
+:memo: [crypto.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/crypto.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### dns 모듈
+### dns 모듈
 
 지정된 도메인의 dns 정보를 알아올 수 있는 모듈
 
@@ -120,13 +136,17 @@ var crypto = require("crypto");
 var dns = require("dns");
 ~~~
 
+ 
 
+:memo: [dns.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/dns.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### fs 모듈
+### fs 모듈
 
 파일에 데이터를 쓰고 읽어올 수 있는 기능을 제공하는 모듈
 
@@ -137,13 +157,17 @@ var dns = require("dns");
 var fs = require("fs");
 ~~~
 
+ 
 
+:memo: [fs.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/fs.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### Global 모듈
+###  Global 모듈
 
 모듈을 생성하지 않고 사용할 수 있는 것들을 가지고 있는 모듈 객체
 
@@ -151,39 +175,53 @@ var fs = require("fs");
 
 - Buffer모듈 , console, require, exports 등 포함
 
+ 
 
+:memo: [global.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/global.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### os 모듈
+### os 모듈
 
 node.js 프로그램이 실행되고 있는 서버 컴퓨터와 관련된 정보를 제공함
 
+ 
 
+:memo: [os.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/os.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### path 모듈
+### path 모듈
 
 경로에 관련된 기능 제공
 
 경로에 대해 여러 작업이 필요한 경우 사용함
 
+ 
 
+:memo: [path.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/path.js) 
+
+ 
 
 ---
 
+ 
 
-
-#### http 모듈
+### http 모듈
 
 웹 어플리케이션을 개발할 수 있도록 제공되는 모듈
 
 일반적인 웹서버와 동일하게 동작하며 웹 서버의 기능을 할 수 있는 모듈
 
+ 
 
+:memo: [http.js](https://github.com/yuhyeminn/TIL/blob/master/nodejs/basic/http.js) 
 
