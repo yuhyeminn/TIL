@@ -10,9 +10,9 @@
 
 ![img](https://gmlwjd9405.github.io/images/network/restapi.png)
 
-### REST
+### REST란?
 
-`REST`란 **Representational State Transfer** 의 약자로서 자원의 표현에 의한 상태전달을 의미한다. 즉, 자원을 이름(자원의 표현)으로 구분하여 해당 자원의 상태를 주고받는 모든 것을 의미한다. 구체적으로는 **HTTP URI(Uniform Resource Identifier)를 통해 자원을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation를 적용하는 것**을 의미한다. REST는 기본적으로 웹의 기존 기술과 HTTP 프로토콜을 그대로 활용하기 때문에 웹의 장점을 최대한 활용할 수 있는 아키텍처 스타일이다.
+`REST`란 **Representational State Transfer** 의 약자로서 **자원의 표현에 의한 상태전달**을 의미한다. 즉, 자원을 이름(자원의 표현)으로 구분하여 해당 자원의 상태를 주고받는 모든 것을 의미한다. 구체적으로는 **HTTP URI(Uniform Resource Identifier)를 통해 자원을 명시하고, HTTP Method(POST, GET, PUT, DELETE)를 통해 해당 자원에 대한 CRUD Operation를 적용하는 것**을 의미한다. REST는 기본적으로 웹의 기존 기술과 HTTP 프로토콜을 그대로 활용하기 때문에 웹의 장점을 최대한 활용할 수 있는 아키텍처 스타일이다.
 
 즉, REST는 자원 기반의 구조(ROA, Resource Oriented Architecture) 설계의 중심에 Resource가 있고 HTTP Method를 통해 Resource를 처리하도록 설계된 아키텍쳐를 의미한다.
 
@@ -179,6 +179,9 @@ Runtime Data Area 는 JVM의 메모리 영역으로 자바 어플리케이션을
 ## ✨ 큐(Queue)와 스택(Stack)
 
 - `큐(Queue)` : 가장 먼저 저장된 데이터를 먼저 꺼내는 `선입선출(FIFO)`구조
+  
+  - 큐는 최근 사용 문서, 인쇄 작업 대기 목록, 버퍼 등의 기능을 구현할 때 활용됨
+  
   - 자바에서 큐 메모리 구조는 별도의 인터페이스 형태로 제공됨
     - Deque 인터페이스를 구현한 LinkedList 클래스가 큐 메모리 구조를 구현하는 데 가장 많이 사용됨
   - 메소드
@@ -190,6 +193,9 @@ Runtime Data Area 는 JVM의 메모리 영역으로 자바 어플리케이션을
 <br>
 
 - `스택(Stack)` : 마지막에 저장된 데이터가 먼저 나오는 `후입선출(LIFO)` 구조
+  
+  - 스택은 수식계산이나 워드프로세서의 undo/redo, 또는 웹브라우저의 뒤로/앞으로와 같은 기능들을 구현할 때 활용됨
+  
   - 자바에서 스택 클래스를 제공함
   - 메소드
     - push : 스택에 객체 저장
