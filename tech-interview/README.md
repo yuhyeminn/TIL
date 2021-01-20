@@ -53,6 +53,17 @@
 - 정규화란?
 - 해시테이블이란?
 
+<br>
+
+## :bomb: day6 (2021/01/19) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
+
+- 트랜잭션이란? 4가지 원칙을 포함해 설명해주세요  
+- MVC패턴의 모델 VO DTO DAO BO 에 대해 설명해주세요
+- 자료구조 - 배열과 리스트를 비교설명해주세요
+- 자바의 컬렉션 중 ArrayList, LinkedList, Vector에 대해 비교설명해주세요
+
+
+
 
 
 
