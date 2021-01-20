@@ -44,6 +44,17 @@
 - 자바 래퍼 클래스란? 자동 박싱과 자동 언박싱이 일어나는 경우는? 
 - 싱글톤패턴이란? 자바와 스프링에서의 싱글톤패턴 차이, 사용하는 이유 위주로 설명
 
+<br>
+
+## :bomb: day5 (2021/01/19) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day5.md)
+
+- 스프링의 특징 (IOC, DI, DL, POJO, AOP, MVC 패턴)
+- 스프링부트란? 스프링부트를 왜 사용해야할까? 
+- 정규화란?
+- 해시테이블이란?
+
+
+
 
 
 
