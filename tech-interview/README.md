@@ -55,12 +55,29 @@
 
 <br>
 
-## :bomb: day6 (2021/01/19) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
+## :bomb: day6 (2021/01/20) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
 
-- 트랜잭션이란? 4가지 원칙을 포함해 설명해주세요  
-- MVC패턴의 모델 VO DTO DAO BO 에 대해 설명해주세요
-- 자료구조 - 배열과 리스트를 비교설명해주세요
-- 자바의 컬렉션 중 ArrayList, LinkedList, Vector에 대해 비교설명해주세요
+- 트랜잭션이란? (4가지 원칙 포함)
+- MVC패턴의 모델 VO, DTO, DAO, BO 에 대한 설명
+- 자료구조 - 배열과 리스트
+- 자바의 컬렉션 중 ArrayList, LinkedList, Vector에 대한 비교설명
+
+<br>
+
+## :bomb: day7 (2021/01/22) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
+
+- 동기, 비동기, 블로킹, 넌블로킹에 대한 설명
+- 도메인 이름으로 실제 IP를 찾는 흐름
+- 자바에서 iterator와 iterable 차이
+- 자바에서 제네릭이란
+
+
+
+
+
+
+
+
 
 
 
