@@ -71,13 +71,14 @@
 - 자바에서 iterator와 iterable 차이
 - 자바에서 제네릭이란
 
+<br>
 
+## :bomb: day8 (2021/01/25) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
 
-
-
-
-
-
+- OSI 7계층에 대해 설명
+- HTTP 1.0과 1.1의 차이
+- 1급 객체에 대해 설명
+- 자바에서 직렬화(Serialization)과 역직렬화(Deserialization)에 대해서 설명
 
 
 
