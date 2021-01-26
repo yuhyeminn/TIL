@@ -80,11 +80,11 @@
 - 1급 객체에 대해 설명
 - 자바에서 직렬화(Serialization)과 역직렬화(Deserialization)에 대해서 설명
 
+<br>
 
+## :bomb: day9 (2021/01/26) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
 
-
-
-
-
-
-
+- HTTP 2.0에 대해 설명
+- 자바 8 람다식 개념 및 사용법과 장단점
+- RDBMS 와 NoSQL의 차이 
+- BFS와 DFS 차이
