@@ -64,7 +64,7 @@
 
 <br>
 
-## :bomb: day7 (2021/01/22) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
+## :bomb: day7 (2021/01/22) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day7.md)
 
 - 동기, 비동기, 블로킹, 넌블로킹에 대한 설명
 - 도메인 이름으로 실제 IP를 찾는 흐름
@@ -73,7 +73,7 @@
 
 <br>
 
-## :bomb: day8 (2021/01/25) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
+## :bomb: day8 (2021/01/25) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day8.md)
 
 - OSI 7계층에 대해 설명
 - HTTP 1.0과 1.1의 차이
@@ -82,9 +82,18 @@
 
 <br>
 
-## :bomb: day9 (2021/01/26) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day6.md)
+## :bomb: day9 (2021/01/26) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day9.md)
 
 - HTTP 2.0에 대해 설명
 - 자바 8 람다식 개념 및 사용법과 장단점
 - RDBMS 와 NoSQL의 차이 
 - BFS와 DFS 차이
+
+<br>
+
+## :bomb: day10 (2021/01/27) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day9.md)
+
+- 자바 버전 7과 8의 차이
+- 자바 8 스트림 개념 및 사용법과 장단점
+- keep-alive 헤더란
+- 내부 조인과 외부 조인의 차이 
