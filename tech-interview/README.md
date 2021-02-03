@@ -109,9 +109,18 @@
 
 <br>
 
-## :bomb: day12 (2021/02/01) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day12.md)
+## :bomb: day12 (2021/02/02) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day12.md)
 
 - 삽입정렬이 일어나는 과정을 설명해주세요
 - 자바 컬렉션 중 Map과 Set에 대해 설명해주세요
 - 자바에서 데이터타입이 char type과 string type으로 나누어져있는 이유
 - 객체지향 solid 원칙에 대해 설명해주세요
+
+<br>
+
+## :bomb: day13 (2021/02/03) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day13.md)
+
+- 그래프와 트리의 차이점
+- 자바에서 hashCode와 eqauls에 대해 설명해주세요
+- 스프링에서 Bean이란 무엇인가요
+- 스프링 컨테이너와 Bean의 생명주기에 대해 설명해주세요
