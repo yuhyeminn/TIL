@@ -91,7 +91,7 @@
 
 <br>
 
-## :bomb: day10 (2021/01/27) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day9.md)
+## :bomb: day10 (2021/01/27) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day10.md)
 
 - 자바 버전 7과 8의 차이
 - 자바 8 스트림 개념 및 사용법과 장단점
@@ -100,9 +100,18 @@
 
 <br>
 
-## :bomb: day11 (2021/02/01) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day9.md)
+## :bomb: day11 (2021/02/01) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day11.md)
 
 - CI/CD 개념에 대해 설명해주세요
 - 컴파일러와 인터프리터의 차이
 - 쿼리 속도 및 효율 향상법
 - 자바에서 synchronized 키워드에 대해 설명해주세요
+
+<br>
+
+## :bomb: day12 (2021/02/01) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day12.md)
+
+- 삽입정렬이 일어나는 과정을 설명해주세요
+- 자바 컬렉션 중 Map과 Set에 대해 설명해주세요
+- 자바에서 데이터타입이 char type과 string type으로 나누어져있는 이유
+- 객체지향 solid 원칙에 대해 설명해주세요

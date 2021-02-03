@@ -154,11 +154,14 @@ Spring Boot는 자주 사용하는 프로젝트 조합을 미리 만들어 놓�
 
 키(Key)에 대한 해시(Hash)값을 사용하여 값을 저장, 조회 하는 것은 동일하다.
 
-- **해시 테이블(Hash Table)**
+- **해시 맵(Hash Map) **
+  
   - 비동기, 즉 단일 쓰레드에서 사용한다.
   - Null 값을 허용한다.
-  - 보조 해시 함수와 Separating Chaining를 사용해서 충돌이 덜 발생한다. (key의 hash값을 변형)
-- 해시 맵(Hash Map)
+  
+    
+- **해시 테이블(Hash Table)**
+  
   - 동기, 즉 멀티 쓰레드에서 사용한다.
-  - Null 값을 허용하지 않는다. (key가 hashcode(), equals()를 사용하기 때문)
+  - Null 값을 허용하지 않는다.
 
