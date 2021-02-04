@@ -20,7 +20,7 @@
   - 순회는 Pre-order, In-order, Post-order로 이루어진다.
   - 트리는 이진트리, 이진 탐색 트리, 균형 트리, 이진 힙 등이 있다.
 
-
+<br>
 
 ### 그래프 (Graph)
 
@@ -92,7 +92,7 @@ Object.hashCode() 메소드는 객체의 주소값을 이용하여 객체 고유
 
 Spring IoC 컨테이너가 관리하는 자바 객체를 `빈(Bean)`이라는 용어로 부른다. new 연산으로 생성해낸 객체가 아닌 ApplicationContext가 알고 있는 객체, 즉 ApplicationContext가 만들어서 그 안에 담고있는 객체를 의미한다.
 
-
+<br>
 
 ### 빈(Bean) 등록
 
@@ -101,7 +101,7 @@ Spring IoC 컨테이너가 관리하는 자바 객체를 `빈(Bean)`이라는 �
 1. Component Scanning
 2. 빈 설정파일에 직접 빈을 등록
 
-
+<br>
 
 ### Component Scan
 
@@ -109,7 +109,7 @@ Spring IoC 컨테이너가 관리하는 자바 객체를 `빈(Bean)`이라는 �
 
 SpringBoot에선 `@SpringBootApplication` 어노테이션에 내부적으로 `@ComponentScan` 어노테이션이 적용되어 있다.
 
-
+<br>
 
 ### 빈 설정파일
 
@@ -128,10 +128,12 @@ SpringBoot에선 `@SpringBootApplication` 어노테이션에 내부적으로 `@C
 **생성 - 설정 - 사용 - 종료**
 
 1. `GenericXmlApplicationContext`를 이용한 스프링 컨테이너 초기화(생성)
+   - 빈(Bean) 객체 생성, 초기화 및 의존 객체 주입
 2. `getBean()`응 이용한 빈(Bean) 객체 이용
 3. `close()`를 이용한 스프링 컨테이너 종료
+   - 빈(Bean) 객체 소멸
 
-
+<br>
 
 ### Bean 의 생명주기
 
