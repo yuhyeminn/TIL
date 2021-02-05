@@ -124,3 +124,13 @@
 - 자바에서 hashCode와 eqauls에 대해 설명해주세요
 - 스프링에서 Bean이란 무엇인가요
 - 스프링 컨테이너와 Bean의 생명주기에 대해 설명해주세요
+
+<br>
+
+## :bomb: day14 (2021/02/05) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day14.md)
+
+- 데이터베이스에서 인덱스를 사용하는 이유와 장단점
+- Redis와 Memcached의 차이에 대해 설명해주세요
+- 스프링 웹 MVC의 Dispatcher Servlet의 동작 원리에 대해서 설명해주세요
+- 자바에서 Checked Exception과 Unchecked Exception에 대해 설명해주세요
+
