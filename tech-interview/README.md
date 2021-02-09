@@ -134,3 +134,12 @@
 - 스프링 웹 MVC의 Dispatcher Servlet의 동작 원리에 대해서 설명해주세요
 - 자바에서 Checked Exception과 Unchecked Exception에 대해 설명해주세요
 
+<br>
+
+## :bomb: day15 (2021/02/09) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day15.md)
+
+- JPA 영속성 컨텍스트의 이점 5가지에 대해 설명해주세요
+- JPA를 사용할 때 N + 1 문제가 발생하는 이유와 해결 방법을 설명해주세요
+- 스프링에서 CORS 에러를 해결하기 위한 방법을 설명해주세요
+- 웹사이트에 접속하는 과정을 OSI 7계층과 연관지어 설명해주세요
+
