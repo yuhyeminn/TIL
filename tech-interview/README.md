@@ -143,3 +143,12 @@
 - 스프링에서 CORS 에러를 해결하기 위한 방법을 설명해주세요
 - 웹사이트에 접속하는 과정을 OSI 7계층과 연관지어 설명해주세요
 
+<br>
+
+## :bomb: day16 (2021/02/10) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day15.md)
+
+- 웹사이트에 접속하는 과정을 설명해주세요
+- 세션이란? 다중 서버에서 세션을 관리하는 방법에 대해 설명해주세요
+- ElasticSearch의 키워드 검색과 RDBMS에서 %LIKE% 검색의 차이점에 대해 설명해주세요
+- 자바에서 Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요
+
