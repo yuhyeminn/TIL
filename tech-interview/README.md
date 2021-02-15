@@ -145,10 +145,20 @@
 
 <br>
 
-## :bomb: day16 (2021/02/10) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day15.md)
+## :bomb: day16 (2021/02/10) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day16.md)
 
 - 웹사이트에 접속하는 과정을 설명해주세요
 - 세션이란? 다중 서버에서 세션을 관리하는 방법에 대해 설명해주세요
 - ElasticSearch의 키워드 검색과 RDBMS에서 %LIKE% 검색의 차이점에 대해 설명해주세요
 - 자바에서 Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요
+
+<br>
+
+## :bomb: day17 (2021/02/15) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day17.md)
+
+- 스프링에서 Filter, Interceptor, AOP의 차이를 설명해주세요
+- 스프링에서 Controller, RestController의 차이를 설명해주세요
+    - 응답이 어떻게 다른지?
+- 세션 기반 인증과 토큰 기반 인증의 차이를 설명해주세요
+- JPA에서 PK 매핑법에 대해 설명해주세요
 
