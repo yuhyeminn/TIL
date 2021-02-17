@@ -162,3 +162,12 @@
 - 세션 기반 인증과 토큰 기반 인증의 차이를 설명해주세요
 - JPA에서 PK 매핑법에 대해 설명해주세요
 
+<br>
+
+## :bomb: day18 (2021/02/17) [📎](https://github.com/yuhyeminn/TIL/blob/master/tech-interview/day18.md)
+
+- TCP/IP 4계층
+- TCP와 UDP의 차이
+- TCP 헤더에 대해
+- 3-way hand shake, 4-way hand shake 흐름
+
